@@ -1,0 +1,499 @@
+#portfolio1 {
+  background-image: linear-gradient(#51f705, #727272);
+  /* Set the inner and outer background colors */
+  background-position: 10px 10px, 0 0;
+  background-repeat: no-repeat;
+  background-origin: padding-box, border-box;
+  padding: 20px;
+  height: 100vh;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+}
+
+.menu li {
+  flex: 1;
+}
+
+.menu li a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+/* #skill {
+  background-image: linear-gradient(#f828cb, #3609fd);
+} */
+
+.skills-section {
+
+
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+.skill-item h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.skill-progress {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  width: 40%;
+  margin-left: 200px;
+  overflow: hidden;
+}
+
+.skill-progress-bar {
+  height: 90%;
+
+  background-color: #007bff;
+}
+
+
+#img1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 500px;
+  height: 70vh;
+  border-radius: 200%
+}
+
+#intro {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+#my_name {
+  margin-left: 100px;
+
+}
+
+#head4 {
+  align-items: center;
+  margin-left: 150px;
+}
+
+#SEE_MORE {
+  width: fit-content;
+  margin-left: 35%;
+  /* Set background color */
+  background-color: #18fa04;
+  /* Replace with your desired color */
+
+  /* Set text color */
+  color: #111111;
+  /* Replace with your desired color */
+
+  /* Set font size */
+  font-size: 20px;
+  /* Replace with your desired font size */
+
+  /* Set padding */
+  padding: 12px 24px;
+  /* Replace with your desired padding */
+  border-radius: 10%;
+  /* Set border */
+  border: none;
+
+  /* Set cursor */
+  cursor: pointer;
+
+  /* Add hover effect */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.SEE_MORE:hover {
+  /* Change background color on hover */
+  background-color: #f6f6f7;
+  /* Replace with your desired color */
+}
+
+.download-button {
+  display: block;
+  width: 200px;
+  margin: 3% auto;
+  text-align: center;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #3e8e41;
+}
+
+/* #para_download {
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+
+} */
+
+#download_cv {
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* background-color: #3805f1; */
+}
+
+#myself {
+  color: #51f705;
+}
+
+/* .edu-background {
+  background-image: linear-gradient(#ddd, #f84370);
+} */
+
+.education-section {
+
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin-left: 50%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* cursor: pointer;
+  transition: opacity 0.3s ease; */
+
+}
+
+/* .education-section:hover {
+  opacity: 0.8;
+} */
+
+.education-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.education-item {
+  margin-bottom: 10px;
+}
+
+.experience-section {
+
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin-left: 50%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.experience-type {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}
+
+
+
+.project-section {
+
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.project-type {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.project-item {
+  margin-bottom: 10px;
+}
+
+.rar-link {
+  display: inline-block;
+  /* Display the link as a block element */
+  padding: 10px 20px;
+  /* Add padding to the link */
+  background-color: #007bff;
+  /* Set the background color of the link */
+  color: #fff;
+  /* Set the text color of the link */
+  text-decoration: none;
+  /* Remove underline from the link */
+  border-radius: 3px;
+  /* Add border radius to the link */
+  transition: background-color 0.3s ease;
+  /* Add transition effect on hover */
+}
+
+.rar-link:hover {
+  background-color: #0056b3;
+  /* Change background color of the link on hover */
+}
+
+
+.container {
+  max-width: 400px;
+  /* Set the maximum width of the form */
+  margin: 0 auto;
+  /* Center the form horizontally */
+  padding: 20px;
+  /* Add some padding around the form */
+  background-color: #f0f0f0;
+  /* Set the background color of the form */
+  border-radius: 5px;
+  /* Add some border radius to round the corners */
+  height: 50vh;
+  margin-bottom: 10%;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  /* Display form elements as block elements to stack them vertically */
+  margin-bottom: 10px;
+  /* Add some margin between form elements */
+  width: 100%;
+  /* Set the width of form elements to 100% of their parent container */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  /* Add some padding to form input and textarea elements */
+  border: none;
+  /* Remove default border */
+  border-radius: 3px;
+  /* Add some border radius to form input and textarea elements */
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  /* Set the background color of the submit button */
+  color: #fff;
+  /* Set the text color of the submit button */
+  padding: 10px 20px;
+  /* Add some padding to the submit button */
+  border: none;
+  /* Remove default border */
+  border-radius: 3px;
+  /* Add some border radius to the submit button */
+  cursor: pointer;
+  /* Add pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Add transition effect on hover */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+  /* Change background color of the submit button on hover */
+}
+
+.certificate-section {
+
+  margin-bottom: 20px;
+  display: block;
+  background-color: rgb(248, 250, 248);
+  width: 500px;
+  margin-left: 50%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 2px;
+  margin-top: 10%;
+  box-shadow: 0 0 2em hsla(240, 2%, 76%, 0.692);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.certificate-type {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+
+#certimg {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 200px;
+  height: 40vh;
+  border-radius: 200%
+}
+
+#certificate_btn {
+  width: fit-content;
+  margin-left: 35%;
+  /* Set background color */
+  background-color: #18fa04;
+  /* Replace with your desired color */
+
+  /* Set text color */
+  color: #111111;
+  /* Replace with your desired color */
+
+  /* Set font size */
+  font-size: 20px;
+  /* Replace with your desired font size */
+
+  /* Set padding */
+  padding: 12px 24px;
+  /* Replace with your desired padding */
+  border-radius: 10%;
+  /* Set border */
+  border: none;
+
+  /* Set cursor */
+  cursor: pointer;
+
+  /* Add hover effect */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.certificate_btn:hover {
+  /* Change background color on hover */
+  background-color: #f6f6f7;
+  /* Replace with your desired color */
+}
+
+
+
+.portfolio-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex-basis: 50%;
+}
+
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-right {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.social-media-list {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.social-media-item {
+  margin-left: 10px;
+}
+
+.social-media-item a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media-item a:hover {
+  color: #ffcc00;
+}
+
+
+#full_back {
+  background-image: linear-gradient(#fcad04, #707070);
+  margin-bottom: 10%;
+  height: auto;
+}
