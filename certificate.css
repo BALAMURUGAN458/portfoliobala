@@ -1,0 +1,19 @@
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  flex-basis: calc(50% - 10px);
+  /* Two images in a row with 10px gap */
+  margin: 5px;
+  /* Gap between images */
+  overflow: hidden;
+  s
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
